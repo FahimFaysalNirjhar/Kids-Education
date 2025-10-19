@@ -45,6 +45,10 @@
   .right {
     margin-left: 0;
   }
+  header {
+    justify-content: space-between;
+    border-bottom: 0.5px solid var(--Orange, #fea301);
+  }
 }
 @media screen and (min-width: 576px) and (max-width: 1024px) {
   .right {
