@@ -153,3 +153,62 @@ nav ul li {
   font-weight: 600;
   line-height: 30px; /* 150% */
 }
+/* banner related styles */
+.banner-title {
+  color: #111;
+  font-family: "Quicksand";
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 61px;
+  margin: 0;
+}
+#text-yellow {
+  color: #fea301;
+}
+#text-blue {
+  color: #01acfd;
+}
+.banner-para {
+  color: #111;
+  font-family: "Quicksand";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.banner-btn {
+  display: flex;
+  width: 197px;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 12px;
+  background: #111;
+  border: none;
+  color: #fff;
+  font-family: "Quicksand";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 30px; /* 150% */
+  cursor: pointer;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+.banner-btn:hover {
+  transform: scale(1.05);
+}
+.banner {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.banner-description {
+  display: flex;
+  width: 640px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+}
