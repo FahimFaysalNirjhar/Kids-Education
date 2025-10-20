@@ -92,3 +92,25 @@
     padding-left: 0;
   }
 }
+
+@media (max-width: 1025px) {
+  .card {
+    flex: 0 0 18rem;
+    width: 18rem;
+  }
+
+  .carousel {
+    width: calc(2 * 18rem + 1 * 1em); /* 2 cards + 1 gap */
+  }
+}
+@media (max-width: 768px) {
+  .card {
+    flex: 0 0 100%;
+    width: 100%;
+  }
+
+  .carousel {
+    width: 100%;
+    padding-inline: 0.5em;
+  }
+}
