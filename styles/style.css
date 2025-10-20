@@ -1,5 +1,9 @@
 /* google font styles */
 @import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+/* css custom property */
+:root {
+  --primary-color: #fea301;
+}
 /* logo related styles */
 .logo {
   display: flex;
@@ -68,7 +72,7 @@ nav ul li {
   user-select: none;
 }
 #yellow a {
-  color: #fea301;
+  color: var(--primary-color);
   font-family: "Quicksand";
   font-size: 20px;
   font-style: normal;
@@ -136,7 +140,7 @@ nav ul li {
   gap: 10px;
   flex-shrink: 0;
   border-radius: 12px;
-  background: #fea301;
+  background: var(--primary-color);
   border: none;
   cursor: pointer;
   transition: transform 0.3s ease;
@@ -164,7 +168,7 @@ nav ul li {
   margin: 0;
 }
 #text-yellow {
-  color: #fea301;
+  color: var(--primary-color);
 }
 #text-blue {
   color: #01acfd;
@@ -252,7 +256,7 @@ main {
 .carousel::scroll-button(right),
 .carousel::scroll-button(left) {
   border: none;
-  background: #fea301;
+  background: var(--primary-color);
   font-size: 2rem;
   color: white;
   height: 60px;
@@ -398,4 +402,109 @@ main {
   cursor: pointer;
   display: inline-block;
   transition: 0.3s;
+}
+/* stories related styles */
+/* Background and Main Section */
+.stories {
+  background: linear-gradient(to top, #fff5dc 40%, #ffffff 100%);
+  margin-top: 100px;
+}
+
+/* Section Title */
+.stories-title {
+  color: #000;
+  font-family: "Quicksand", sans-serif;
+  font-size: 46px;
+  font-weight: 700;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+/* Story Card */
+.stories-card {
+  background: #fff;
+  width: 540px;
+  border-radius: 16px;
+  overflow: hidden;
+  text-align: left;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  padding-bottom: 20px;
+}
+
+/* Card Image */
+.stories-card img {
+  width: 100%;
+  display: block;
+}
+
+/* Date Button */
+.stories-btn-style {
+  background: #3cd8e8;
+  font-family: "Raleway";
+  border: none;
+  color: white;
+  padding: 8px 16px;
+  font-size: 14px;
+  font-weight: 600;
+  border-radius: 47.934px;
+  margin: 15px;
+  cursor: pointer;
+  transition: 0.3s;
+  position: relative;
+  top: -35px;
+}
+.stories-btn-style:hover {
+  transform: scale(1.05);
+}
+/* Card Title */
+.stories-card-title {
+  font-family: "Quicksand";
+  font-size: 24px;
+  font-weight: 700;
+  margin: 10px 15px;
+  color: #000;
+}
+
+/* Card Description */
+.stories-details {
+  font-family: "Raleway";
+  font-size: 14px;
+  color: #666;
+  margin: 0 15px;
+  line-height: 1.6;
+}
+/* small card design */
+.stories-card-small {
+  background: #fff;
+  width: 290.693px;
+  border-radius: 16px;
+  overflow: hidden;
+  text-align: left;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  padding-bottom: 20px;
+}
+.stories-card-small .stories-card-title {
+  font-size: 16px;
+}
+.stories-card-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.stories-card-column-2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+.btn-green {
+  background: #95b226;
+}
+#btn-blue {
+  background: #5d58f0;
+}
+.stories-btn-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 0;
 }
