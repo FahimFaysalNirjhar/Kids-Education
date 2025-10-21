@@ -508,3 +508,112 @@ main {
   align-items: center;
   padding: 50px 0;
 }
+/* footer related styles */
+footer {
+  background: #01acfd;
+  display: flex;
+  justify-content: space-around;
+  height: 519px;
+  padding-top: 100px;
+}
+.footer-icons .icons img {
+  width: 40.613px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.footer-icons .icons img:hover {
+  transform: scale(1.05);
+}
+.icons {
+  display: flex;
+  gap: 15px;
+}
+.footer-logo {
+  display: flex;
+  align-items: center;
+}
+.footer-logo-title {
+  color: #fff;
+  font-family: "Quicksand";
+  font-size: 42.143px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 39.509px; /* 93.75% */
+  cursor: pointer;
+  transition: 0.3s;
+}
+.footer-logo-title:hover,
+.footer-icons-title:hover,
+.footer-link-title:hover {
+  transform: scale(1.05);
+}
+.footer-details {
+  color: #fff;
+  font-family: "Quicksand";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 399.02px;
+}
+.footer-links {
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+.footer-link-title {
+  color: #fff;
+  font-family: "Quicksand";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.footer-links ul li {
+  list-style: none;
+}
+.footer-links ul {
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.footer-links ul li a {
+  color: #fff;
+  font-family: "Quicksand";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  transition: 0.3s;
+}
+.footer-links ul li a:hover {
+  transform: scale(1.05);
+}
+.footer-icons-title {
+  color: #fff;
+  font-family: "Quicksand";
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 26px; /* 100% */
+  margin-bottom: 32px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.icons img {
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+.footer-logo svg {
+  cursor: pointer;
+  transition: 0.3s;
+}
+.footer-logo svg:hover {
+  transform: scale(1.05);
+}
